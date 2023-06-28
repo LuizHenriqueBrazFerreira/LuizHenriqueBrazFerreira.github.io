@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #4e7a69;
+}
+
+.header{
+    background-color: #2e4542;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.header-conteiner{
+    background-color: #2e4542;
+}
+body ol{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+}  
+body ul{
+    font-size: 15px;
+    font-weight: 400;
+}
+body h1, body h2{
+    font-weight: 500;
+    font-size: 25px;
+}
+body a{
+    background-color: #33212a;
+    width: 23%;
+    margin-left: 0px;
+    margin-top: 52px;
+    padding: 4px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: black;
+    ;
+
+}
