@@ -1,0 +1,127 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#cabecalho{
+  top: 0;
+  position: fixed;
+  background-color: #95b46a;
+  width: 100%;
+  height: 100px;
+}
+#titulo{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+head {
+  width: 60%;
+}
+.head-conteiner{
+  background-color: #95b46a; 
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#minha_foto{
+  width: 250px;
+  border-radius: 50px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+body{
+  background-color: rgb(253, 251, 251);
+}
+
+.link-buttons {
+  padding: 0 15px;
+  display: inline-block;
+  float: right;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #272932;
+}
+.link-buttons:hover{
+  background-color: black;
+  transition: all 600ms;
+}
+.link-buttons a{
+  color: white;
+}
+article{
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+article h2{
+  padding: 20px 3px;
+  text-align: center;
+}
+article p{
+  padding-left: 5px;
+  text-align: justify;
+  line-height: 3px;
+}
+#licoes_aprendidas{
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  list-style: none;
+  margin-left: 3px;
+  padding: 10px;
+}
+#licoes_a_aprender{
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  margin-left: 3px;
+  list-style: none;
+  padding: 10px;
+}
+.list{
+  display: inline-block;
+  margin: 100px 20px 70px 300px;
+  border: 2px solid black;
+  text-align: center;
+  width: 250px;
+  height: 225px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+.list h3{
+  padding-top: 5px;
+}
+.lado-esquerdo{
+  float: left;
+  display: inline;
+  width: 70%;
+}
+.lado-direito{
+  float: right;
+  display: inline;
+  width: 29%;
+  margin-top: 110px;
+  text-align: justify;
+  margin-right: 10px;
+}
+aside h2{
+  text-align: center;
+  font-weight: 600;
+  margin: 15px;
+}
+#rodape{
+  width: 100%;
+  background-color: #95b46a ;
+  display: block;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
